@@ -58,3 +58,5 @@ pd.Series(y_train_res).value_counts().plot(kind='bar', title='Class distribution
 
 #Data testing
 pd.Series(y_test_res).value_counts().plot(kind='bar', title='Class distribution after applying SMOTE', xlabel='test_outcome')
+
+#End
